@@ -33,7 +33,7 @@ export default function MyWatchlist(props) {
                   Your watchlist is looking a little empty...
                 </h2>
                 <p className="watchlist--addMovies">
-                  <img src="../public/plus-icon.png" className="watchListIcon"/>
+                  <img src="/plus-icon.png" className="watchListIcon"/>
                   <Link to="/" className="links--home">
                     Let's add some movies!
                   </Link>
