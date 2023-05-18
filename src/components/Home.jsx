@@ -78,7 +78,7 @@ export default function Home(props) {
                   <p className="error">{error}</p>
                 ) : results.length === 0 ? (
                     <h3 className="startExploring">
-                      <img src="../public/filmIcon.png" className="movieIcon"/>
+                      <img src="/filmIcon.png" className="movieIcon"/>
                       Start Exploring!
                     </h3>
                 ) : (
